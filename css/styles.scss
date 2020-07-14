@@ -1,0 +1,26 @@
+$color-dark: #252222;
+$color-black-mid-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Luckiest Guy", "Open Sans";
+
+body {
+    font-family: $body-font;
+}
+
+.header {
+    font-family: $header-font;
+    font-size: 6rem;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 15px;
+    background-color: $color-dark;
+    color: white;
+}
+
+#logo {
+    width: 160px;
+    height: 175px;
+}

@@ -1,0 +1,16 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.header {
+  font-family: "Luckiest Guy", "Open Sans";
+  font-size: 6rem; }
+
+.jumbotron {
+  margin: 0;
+  padding: 15px;
+  background-color: #252222;
+  color: white; }
+
+#logo {
+  width: 160px;
+  height: 175px; }
