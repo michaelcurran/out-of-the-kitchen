@@ -31,3 +31,14 @@ h4 {
 
 footer {
   color: white; }
+
+footer a {
+  text-decoration: none;
+  color: white; }
+
+footer a:hover {
+  text-decoration: none;
+  color: #b8b8b8; }
+
+footer h5 {
+  color: gray; }

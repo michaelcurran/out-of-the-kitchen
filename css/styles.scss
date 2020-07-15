@@ -46,3 +46,16 @@ h4 {
 footer {
     color: white;
 }
+footer {
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        text-decoration: none;
+        color: rgb(184, 184, 184);
+    }
+    h5 {
+        color: gray;
+    }
+}
