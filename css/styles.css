@@ -3,7 +3,7 @@ body {
 
 .header {
   font-family: "Luckiest Guy", "Open Sans";
-  font-size: 6rem; }
+  font-size: 5rem; }
 
 .jumbotron {
   margin: 0;
@@ -14,3 +14,6 @@ body {
 #logo {
   width: 160px;
   height: 175px; }
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); }

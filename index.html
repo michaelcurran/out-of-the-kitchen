@@ -19,16 +19,58 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-2 d-flex justify-content-center">
+                <div class="col col-sm-12 col-md-2 mb-4 mb-sm-0 d-flex justify-content-center">
                     <img src="img/logo.png" id="logo" />
                 </div>
-                <div class=" col-sm-12 col-md-10 text-center">
+                <div class="col col-sm-12 col-md-10 align-self-center text-center">
                     <h1 class="header">OUT OF THE KITCHEN</h1>
-                    <h3>12345 Gottaeat Lane</h3>
+                    <h4>789 Gotta Eat Lane, Hungryville, CA</h4>
+                    <h4>789-555-8910</h4>
+
                 </div>
             </div>
         </div>
     </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#">
+                            <i class="fa fa-home fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">
+                            <i class="fa fa-map-marker fa-lg"></i> Hours & Location</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">
+                            <i class="fa fa-bars fa-lg"></i> Menu</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">
+                            <i class="fa fa-info fa-lg"></i> About</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html">
+                            <i class="fa fa-address-book fa-lg"></i> Contact</a>
+                    </li>
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a role="botton" id="orderButton">
+                        <i class="fa fa-credit-card"></i> <strong>Order Online</strong>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>
