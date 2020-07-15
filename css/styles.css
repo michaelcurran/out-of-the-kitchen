@@ -1,9 +1,13 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  background-color: black; }
 
 .header {
-  font-family: "Luckiest Guy", "Open Sans";
+  font-family: "Cormorant Upright", "Open Sans";
   font-size: 5rem; }
+
+h4 {
+  font-family: "Cormorant Upright", "Open Sans"; }
 
 .jumbotron {
   margin: 0;
@@ -16,4 +20,11 @@ body {
   height: 175px; }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.img-max-width {
+  width: 100%; }
+
+.img-max-size {
+  height: 100%;
+  width: 100%; }

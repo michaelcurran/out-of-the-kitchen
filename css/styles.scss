@@ -1,16 +1,21 @@
 $color-dark: #252222;
-$color-black-mid-transparent: rgba(0, 0, 0, 0.5);
+$color-black-transparent: rgba(0, 0, 0, 0.7);
 
 $body-font: "Open Sans", sans-serif;
-$header-font: "Luckiest Guy", "Open Sans";
+$header-font: "Cormorant Upright", "Open Sans";
 
 body {
     font-family: $body-font;
+    background-color: black;
 }
 
 .header {
     font-family: $header-font;
     font-size: 5rem;
+}
+
+h4 {
+    font-family: $header-font;
 }
 
 .jumbotron {
@@ -26,5 +31,14 @@ body {
 }
 
 .navbar {
-    background-color: $color-black-mid-transparent;
+    background-color: $color-black-transparent;
+}
+
+.img-max-width {
+    width: 100%;
+}
+
+.img-max-size {
+    height: 100%;
+    width: 100%;
 }
