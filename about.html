@@ -17,30 +17,15 @@
 </head>
 
 <body>
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col col-sm-12 col-md-2 mb-4 mb-sm-0 d-flex justify-content-center">
-                    <img src="img/logo.png" id="logo" />
-                </div>
-                <div class="col col-sm-12 col-md-10 align-self-center text-center">
-                    <h1 class="header" id="orderButton">OUT OF THE KITCHEN</h1>
-                    <h4>789 Gotta Eat Lane, Hungryville, CA</h4>
-                    <h4>789-555-8910</h4>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <nav class=" navbar navbar-expand-sm navbar-dark fixed-bottom" id="homeNavbar">
+    <nav class=" navbar navbar-expand-sm navbar-dark sticky-top" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" height="50" width="50" /></a>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="50" width="50" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#">
+                    <li class="nav-item"><a class="nav-link" href="index.html">
                             <i class="fa fa-home fa-lg"></i> Home</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">
@@ -49,7 +34,7 @@
                     <li class="nav-item"><a class="nav-link" href="#">
                             <i class="fa fa-bars fa-lg"></i> Menu</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">
+                    <li class="nav-item active"><a class="nav-link" href="aboutus.html">
                             <i class="fa fa-info fa-lg"></i> About</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="contactus.html">
@@ -65,39 +50,58 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid mt-5 mb-5 text-white">
         <div class="row">
-            <div class="col-md-12 pl-0 pr-0">
-                <img src="img/main-view.jpg" alt="Dining Area" class="img-fluid img-max-width" />
+            <div class="col-md-12 col-lg-6">
+                <img class="img-fluid img-max-height" src="img/cooking.jpg" alt="Cooking picture." />
             </div>
-            <div class="col-md-7 mt-4">
-                <img src="img/main-view-people.jpg" alt="Dining Area" class="img-fluid img-max-width" />
-            </div>
-            <div class="col-md-5 pl-1 mt-4">
-                <img src="img/bar-view-people.jpg" alt="Bar Area" class="img-fluid img-max-size" />
-            </div>
-            <div class="col-md-5 mt-4">
-                <img src="img/eating.jpg" alt="Food" class="img-fluid img-max-size" />
-            </div>
-            <div class="col-md-7 pl-1 mt-4">
-                <img src="img/main-view-people-2.jpg" alt="Dining Area" class="img-fluid img-max-size" />
-            </div>
-            <div class="col-md-12 mt-4">
-                <img src="img/bar-view.jpg" alt="Bar Area" class="img-fluid img-max-size" />
+            <div class="col mt-5" id="aboutText">
+                <h3 class="text-center"><strong>About</strong></h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Amet nisl purus in mollis. Vel orci porta non pulvinar. Eu lobortis elementum nibh tellus molestie
+                    nunc. Ac auctor augue mauris augue neque. Arcu ac tortor dignissim convallis aenean et tortor.
+                    Suspendisse ultrices gravida dictum fusce. Consequat ac felis donec et odio pellentesque diam. Nam
+                    at lectus urna duis. Lobortis elementum nibh tellus molestie nunc non blandit massa. Est velit
+                    egestas dui id ornare. Aliquet porttitor lacus luctus accumsan tortor. In hac habitasse platea
+                    dictumst vestibulum. Id eu nisl nunc mi. Et malesuada fames ac turpis egestas maecenas pharetra
+                    convallis posuere.
+                </p>
+                <p>
+                    Dignissim suspendisse in est ante in nibh. Dui sapien eget mi proin sed. Facilisi nullam vehicula
+                    ipsum a arcu cursus vitae. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh.
+                    Diam vel quam elementum pulvinar. Fringilla phasellus faucibus scelerisque eleifend donec pretium
+                    vulputate sapien nec. Nullam ac tortor vitae purus. Habitasse platea dictumst quisque sagittis
+                    purus. Tincidunt dui ut ornare lectus. Tincidunt dui ut ornare lectus sit amet est placerat. Vel
+                    turpis nunc eget lorem dolor sed viverra ipsum nunc. Amet venenatis urna cursus eget nunc
+                    scelerisque.
+                </p>
+                <p>
+                    Turpis egestas integer eget aliquet nibh praesent tristique. Leo a diam sollicitudin tempor id eu
+                    nisl. Tortor dignissim convallis aenean et tortor at risus. Pellentesque dignissim enim sit amet
+                    venenatis urna cursus eget nunc. Aliquam sem et tortor consequat id. Pulvinar pellentesque habitant
+                    morbi tristique senectus et netus et malesuada.
+                </p>
             </div>
         </div>
     </div>
 
     <footer>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-12 col-sm-3">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">Hours & Location</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -128,6 +132,14 @@
                     </a>
                 </div>
             </div>
+        </div>
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col d-sm-none">
+                    <button type="button" class="btn btn-outline-light btn-lg btn-block">Order Online</button>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
