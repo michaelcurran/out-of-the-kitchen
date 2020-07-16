@@ -11,7 +11,6 @@ body {
 
 .header {
     font-family: $header-font;
-    font-size: 5rem;
 }
 
 h4 {
@@ -34,6 +33,15 @@ h4 {
     background-color: $color-black-transparent;
 }
 
+#orderButton {
+    border-radius: 0;
+}
+
+#orderButton:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 .img-max-width {
     width: 100%;
 }
@@ -46,6 +54,7 @@ h4 {
 footer {
     color: white;
 }
+
 footer {
     a {
         text-decoration: none;
@@ -57,5 +66,31 @@ footer {
     }
     h5 {
         color: gray;
+    }
+}
+
+  
+
+@media (min-width: 992px) {
+    #header {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #header {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #header {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    #header {
+      font-size: 2rem;
     }
 }
