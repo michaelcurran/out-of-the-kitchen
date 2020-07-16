@@ -1,5 +1,5 @@
 $(function () {
-  if ($('#homeNavbar')) {
+  if ($('#homeNavbar').length != 0 ) {
     manageNavPosition();
 
     $(window).on('scroll resize', function () {
