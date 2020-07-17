@@ -28,16 +28,16 @@
                     <li class="nav-item"><a class="nav-link" href="index.html">
                             <i class="fa fa-home fa-lg"></i> Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="menu.html">
+                    <li class="nav-item active"><a class="nav-link" href="#">
                             <i class="fa fa-bars fa-lg"></i> Menu</a>
                     </li>
-                    <li class="nav-item active"><a class="nav-link" href="#">
+                    <li class="nav-item"><a class="nav-link" href="location.html">
                             <i class="fa fa-map-marker fa-lg"></i> Hours & Location</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="about.html">
                             <i class="fa fa-info fa-lg"></i> About</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">
+                    <li class="nav-item"><a class="nav-link" href="contactus.html">
                             <i class="fa fa-address-book fa-lg"></i> Contact</a>
                     </li>
                 </ul>
@@ -50,26 +50,79 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container mt-5">
         <div class="row">
-            <div class="col text-center">
-                <h1><strong>Hours & Location</strong></h1>
-                <br />
-                <p>789 8th Street, Sacramento, CA</p>
-                <p>789-555-8910</p>
-                <br /><br />
-                <p>We are open for patio seating, take out, and delivery!</p>
-                <p>Dinner 7 Days // 5 - 10pm</p>
-                <p>Lunch Friday - Sunday // 11am - 3:30pm</p>
+            <div class="col-12 mb-3">
+                <h3 class="text-center">Salads
+                    <hr class="border-white">
+                </h3>
+            </div>
+            <div class="col-sm-12 col-lg-6 mb-4">
+                <button class="btn-secondary p-0 btn-size" data-toggle="modal" data-target="#menuModal">
+                    <div class="media">
+                        <div class="media-body align-self-center ml-3">
+                            <h5 class="menu-header-text">Ceasar Salad</h5>
+                            <p class="menu-text">Crisp hearts of romaine, fresh Parmesan cheese and made-from-scratch
+                                croutons tossed
+                                with
+                                our zesty Caesar dressing.</p>
+                        </div>
+                        <img class="d-flex ml-2 menu-thumbnail" src="img/caesar-salad.jpg" alt="Ceaser Salad" />
+                    </div>
+                </button>
+            </div>
+            <div class="col-sm-12 col-lg-6 mb-4 btn-size">
+                <button class="btn-secondary p-0" data-toggle="modal" data-target="#menuModal">
+                    <div class="media">
+                        <img class="d-flex mr-2 menu-thumbnail" src="img/chicken-caesar-salad.jpg" alt="Ceaser Salad" />
+                        <div class="media-body align-self-center">
+                            <h5 class="menu-header-text">Chicken Caesar Salad</h5>
+                            <p class="menu-text">Tender strips of grilled chicken tossed with crisp
+                                hearts of
+                                romaine, fresh Parmesan
+                                cheese, made-from-scratch croutons and our zesty Caesar dressing.</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col-sm-12 col-lg-6 mb-4">
+                <button class="btn-secondary p-0 btn-size" data-toggle="modal" data-target="#menuModal">
+                    <div class="media">
+                        <div class="media-body align-self-center ml-3">
+                            <h5 class="menu-header-text">Grilled Chicken Salad</h5>
+                            <p class="menu-text">Crisp cold greens, strips of marinated chicken, jack cheese, egg,
+                                tomato, bacon, red
+                                onions and croutons. Served with your choice of made-from-scratch dressing: Ranch
+                                Low-Fat Ranch Honey Mustard Thousand Island Italian Bleu Cheese.</p>
+                        </div>
+                        <img class="d-flex ml-2 menu-thumbnail" src="img/caesar-salad.jpg" alt="Ceaser Salad" />
+                    </div>
+                </button>
+            </div>
+            <div class="col-sm-12 col-lg-6 mb-4 btn-size">
+                <button class="btn-secondary p-0" data-toggle="modal" data-target="#menuModal">
+                    <div class="media">
+                        <img class="d-flex mr-2 menu-thumbnail" src="img/chicken-caesar-salad.jpg" alt="Ceaser Salad" />
+                        <div class="media-body align-self-center">
+                            <h5 class="menu-header-text">House Salad</h5>
+                            <p class="menu-text">Fresh greens, cheddar cheese, tomato, eggs, and made-from-scratch
+                                croutons. Served with
+                                your choice of made-from-scratch dressing: Ranch Low-Fat Ranch Honey Mustard Thousand
+                                Island Italian Bleu Cheese.</p>
+                        </div>
+                    </div>
+                </button>
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col gmap_canvas">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.142226523362!2d-121.50024348397108!3d38.57657247962136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad133ab2ddacb%3A0x197c8a4200126a27!2s8th%20St%2C%20California!5e0!3m2!1sen!2sus!4v1594889438631!5m2!1sen!2sus"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                </iframe>
+    <div id="menuModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-dark">
+                <div class="modal-header" id="menuModalHeader">
+                </div>
+                <div class="modal-body" id="menuModalBody">
+                </div>
             </div>
         </div>
     </div>
@@ -81,10 +134,10 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="#">Hours & Location</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="location.html">Hours & Location</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-sm-3">
@@ -125,6 +178,7 @@
             </div>
         </div>
     </footer>
+
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
@@ -132,5 +186,3 @@
     <script src="js/scripts.js"></script>
     <!-- endbuild -->
 </body>
-
-</html>

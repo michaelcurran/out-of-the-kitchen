@@ -55,9 +55,20 @@ h4 {
     width: 100%;
 }
 
+.menu-thumbnail {
+    max-width: 150px;
+    height: 150px;
+}
+
+.btn-size {
+    max-height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .gmap_canvas {
     width: 100%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 
     iframe {
