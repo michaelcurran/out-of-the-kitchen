@@ -44,8 +44,7 @@ h4 {
 
 .btn-size {
   max-height: 150px;
-  overflow: hidden;
-  text-overflow: ellipsis; }
+  overflow: hidden; }
 
 .gmap_canvas {
   width: 100%;
@@ -55,37 +54,54 @@ h4 {
     width: 100%;
     height: 100%; }
 
-footer a {
-  text-decoration: none;
-  color: white; }
+#footer {
+  border: 1px solid white;
+  overflow: hidden; }
+  #footer a {
+    text-decoration: none;
+    color: white; }
+  #footer a:hover {
+    text-decoration: none;
+    color: #b8b8b8; }
+  #footer h5 {
+    color: gray; }
 
-footer a:hover {
-  text-decoration: none;
-  color: #b8b8b8; }
-
-footer h5 {
-  color: gray; }
-
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   #header {
     font-size: 5rem; }
+  #footer {
+    max-width: 1108px; }
+  .gmap_canvas {
+    height: 1000px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header {
+    font-size: 5rem; }
+  #footer {
+    max-width: 928px; }
   .gmap_canvas {
     height: 1000px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #header {
     font-size: 4rem; }
+  #footer {
+    max-width: 688px; }
   .gmap_canvas {
     height: 850px; } }
 
 @media (min-width: 576px) and (max-width: 767px) {
   #header {
     font-size: 3rem; }
+  #footer {
+    max-width: 508px; }
   .gmap_canvas {
     height: 700px; } }
 
 @media (min-width: 0px) and (max-width: 575px) {
   #header {
     font-size: 2rem; }
+  #footer {
+    max-width: 93%; }
   .gmap_canvas {
     height: 500px; } }
