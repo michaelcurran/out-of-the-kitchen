@@ -115,6 +115,7 @@ const priceTemplate = price => {
 }
 
 const generateMenuTemplate = elem => {
+  let list;
   switch(elem) {
     case '#salads':
       list = saladItems;
